@@ -1,0 +1,39 @@
+
+[
+    {
+        "nombre": "Wassily Chair",
+        "diseñador": "Marcel Breuer",
+        "año": "1925",
+        "descripción": "Silla de estructura tubular de acero y superficies de cuero, reconocida por su geometría y construcción ligera.",
+        "materiales": "Acero tubular y cuero"
+    },
+    {
+        "nombre": "Eames Lounge Chair",
+        "diseñador": "Charles y Ray Eames",
+        "año": "1956",
+        "descripción": "Sillón que reinterpreta el tradicional asiento de descanso mediante una combinación de formas curvas, materiales de calidad y confort.",
+        "materiales": "Madera, cuero y aluminio"
+    },
+    {
+        "nombre": "Silla BKF",
+        "diseñador": "Antonio Bonet, Juan Kurchan y Jorge Ferrari Hardoy",
+        "año": "1938",
+        "descripción": "Diseñada en Buenos Aires, su estructura metálica sostiene una superficie de cuero suspendida que se adapta al cuerpo. También conocida como Butterfly Chair.",
+        "materiales": "Hierro y cuero"
+    },
+    {
+        "nombre": "Juicy Salif",
+        "diseñador": "Philippe Starck",
+        "año": "1990",
+        "descripción": "Exprimidor de cítricos de apariencia escultórica, caracterizado por sus tres patas alargadas y su forma orgánica. Propone una relación entre el objeto cotidiano y la expresión visual.",
+        "materiales": "Aluminio fundido"
+    },
+    {
+        "nombre": "Sacapuntas aerodinámico",
+        "diseñador": "Raymond Loewy",
+        "año": "1933",
+        "descripción": "Diseño de sacapuntas caracterizado por una forma aerodinámica y continua, que transforma un objeto cotidiano mediante una estética asociada al Streamlining.",
+        "materiales": "Acero pulido"
+    }
+
+]

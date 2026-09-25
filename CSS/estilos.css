@@ -1,0 +1,169 @@
+/* SELECTOR UNIVERSAL */
+* {
+    box-sizing: border-box;
+}
+
+/* HTML */
+html {
+    font-size: 16px;
+}
+
+/* VARIABLES */
+:root {
+    --color-principal: #232323;
+    --color-secundario: #D94F35;
+    --color-fondo: #a7abe6;
+    --color-tarjeta: #FFFFFF;
+    --color-texto: #232323;
+    --color-borde: #D9CEC0;
+    --color-sombra: #5a5856;
+}
+
+/* BODY */
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    background-color: var(--color-principal);
+    color: var(--color-tarjeta);
+    padding: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+/* BOTONES */
+button {
+    background-color: var(--color-secundario);
+    color: var(--color-tarjeta);
+    border: 2px solid var(--color-borde);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px var(--color-sombra);
+    padding: 0.8em;
+    margin-right: 2rem;
+    font-size: 1rem;
+}
+
+/* MAIN */
+main {
+    padding: 1rem;
+}
+
+/* COLECCIONES */
+#coleccion {
+    padding: 0.5rem;
+}
+
+/* TARJETAS */
+.tarjeta {
+    display: inline-block;
+    background-color: var(--color-tarjeta);
+    width: 275px;
+    margin: 0.5rem;
+    border: 2px solid var(--color-borde);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px var(--color-sombra);
+}
+
+/* TITULO DE TARJETA */
+.titulo-tarjeta {
+    background-color: var(--color-secundario);
+    color: var(--color-tarjeta);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.titulo-tarjeta h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 1rem;
+    margin: 0;
+}
+
+/* CUERPO DE TARJETA */
+.cuerpo-tarjeta {
+    padding: 2rem;
+    text-align: center;
+}
+
+.cuerpo-tarjeta h3 {
+    color: var(--color-secundario);
+    font-size: 1.5rem; 
+    font-weight: 600;
+}
+
+.cuerpo-tarjeta h4 {
+    color: var(--color-secundario);
+    font-size: 1rem; 
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* TEXTO DE TARJETA */
+.texto-tarjeta p{
+    font-size: 1rem;
+    background-color: var(--color-secundario);
+    color: var(--color-tarjeta);
+    padding: 2rem;
+    margin: 0;
+    text-align: center;
+}
+
+.texto-tarjeta .materiales {
+    border-top: 1px solid white;
+    border-radius: 0px 0px 8px 8px;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-tarjeta);
+    padding: 2rem;
+    text-align: left;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+
+/* MODO OSCURO */
+.oscuro {
+    --color-principal: #F3F0E9;
+    --color-fondo: #232323;
+    --color-tarjeta: #363636;
+    --color-titulo: #FFFFFF;
+    --color-texto: #555555;
+    --color-sombra: #111111;
+}
+
+.oscuro header {
+    background-color: var(--color-principal);
+    color: var(--color-sombra);
+}
+
+.oscuro .titulo-tarjeta {
+    background-color: var(--color-fondo);
+    color: var(--color-titulo);
+}
+
+.oscuro .texto-tarjeta p {
+    background-color: var(--color-texto);
+    color: var(--color-fondo);
+}
+
+.oscuro footer {
+    background-color: var(--color-principal);
+    color: var(--color-fondo);
+}
