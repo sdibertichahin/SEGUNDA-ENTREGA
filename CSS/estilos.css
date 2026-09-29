@@ -57,6 +57,7 @@ button {
 
 /* MAIN */
 main {
+    height: 90vh;
     padding: 1rem;
 }
 
